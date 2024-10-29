@@ -1,0 +1,109 @@
+.wpat_category_actions {
+  display: block;
+  background-color: lightblue;
+}
+.wpat_suggested_category_container {
+  background-color: whitesmoke;
+  border-radius: 4px;
+  padding: 2px 4px 2px 2px;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #e2e4e7;
+  margin-bottom: 6px;
+}
+.wpat_suggested_category_actions {
+  display: flex;
+}
+.wpat_api_error {
+  background-color: crimson;
+  color: white;
+  border-radius: 3px;
+  padding: 3px;
+}
+.wpat_api_error a {
+  color: white;
+}
+.wpat_error_container {
+  margin-bottom: 0px;
+}
+.wpat_suggested_category_actions .wpat_suggested_category_refresh {
+  margin-left: 6px;
+}
+.wpat_suggested_category_actions .components-button.is-small {
+  padding: 0 6px;
+}
+.wpat_suggested_category_actions .components-base-control__field {
+  margin-bottom: 0;
+}
+p.wpat_suggested_category_header {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* Suggested Tags */
+#wpat_suggested_tags .wpat_tag_container{display:block;}
+#wpat_suggested_tags .wpat_tag_container .used_term{-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";filter: alpha(opacity=50); opacity: 0.5;}
+#wpat_suggested_tags .wpat_tag_container span {
+  display:block;
+  float:left;
+  background-color:#f0f0ee;
+  background-image: url(images/tag.png);
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: top 50% left 5px;
+  border:solid 1px;
+  border-radius:3px;
+  color:#333;
+  cursor:pointer;
+  border-color:#ccc #999 #999 #ccc;
+  margin:3px;
+  padding:3px 4px 3px 22px;
+}
+#wpat_suggested_tags .wpat_tag_container span:hover {
+  color:#000;
+  background-color:#b6bdd2;
+  background-image: url(images/tag.png);
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: top 50% left 5px;
+  border-color:#0a246a;
+}
+#wpat_suggested_tags .wpat_tag_container span.wpat_add_all_tags {
+  background-color:#3f48cc;
+  color:white;
+  font-weight: bold;
+  padding: 3px 6px;
+  background-image: none;
+}
+#wpat_suggested_tags .wpat_tag_container span.wpat_add_all_tags:hover {
+  background-color:#c2c4dc;
+  color:#333;
+}
+
+#wpat_suggested_tags .postbox-header .hndle {
+  flex-grow: unset !important;
+  display: block !important;
+}
+
+a.wpat-suggest-action-link {
+  display:block;
+  float:left;
+  background-color:#f0f0ee;
+  border:solid 1px;
+  border-radius:3px;
+  cursor:pointer;
+  border-color:#ccc #999 #999 #ccc;
+  margin:3px;
+  padding:3px 4px 3px 4px;
+  text-decoration:none;
+}
+a.wpat-suggest-action-link:hover {
+  color:#000;
+  background-color:#b6bdd2;
+}
+.wpat-suggest-action-header {
+  display:block;
+  float:left;
+  margin:3px 3px 3px 0px;
+  padding:3px 4px 3px 0px;
+}
